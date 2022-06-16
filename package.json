@@ -1,0 +1,28 @@
+{
+  "name": "typedoc-plugin-modular-naming",
+  "version": "0.1.0",
+  "description": "Adds module path to exports names",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "typedoc",
+    "plugin",
+    "typedoc-plugin",
+    "naming",
+    "collisions"
+  ],
+  "author": "Ikor Jefocur",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IkorJefocur/typedoc-plugin-modular-naming"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "typedoc": "^0.22.17"
+  }
+}
